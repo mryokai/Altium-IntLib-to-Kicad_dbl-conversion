@@ -49,7 +49,7 @@ https://github.com/SumantKhalate/KiCad-libdb/
 
 Create the SQLite3 database  
 1. Open SQLiteStudio  
-2. Create a new database.  
+2. Create a new database. I called it mylib.sqlite
 3. Import the csv file.  There may be a limit of rows that can be imported.  Break up the csv file if necessary.  
 	 &ensp;Tools -> Import  
 4. Change Data type to TEXT on all field except No BOM, Schematics Only, and Pin Count  
@@ -57,6 +57,13 @@ Create the SQLite3 database
 
 Create the data source to the SQLite3 database  
  ![image](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/619e6e1d-5bb8-4559-8c4d-fa884dcff2c3)
+
+Setup Kicad library configuration file  
+1. Download mylib.kicad_dbl.  
+2. Modify the user parameters (every Intlib/Schlib will have different user parameter).  The other system parameters should be linked already.  
+
+Setup Kicad Symbol Library Path  
+
 
 Reference 1: https://docs.kicad.org/master/en/eeschema/eeschema_advanced.html  
 Reference 2: https://github.com/SumantKhalate/KiCad-libdb/  
