@@ -13,15 +13,15 @@ Prepare the schlib and pcblib if not already done
 4. Suggestion: Remove special characters in the part name e.g. \/,;~
 
 Create Access database
-1. Create database library.
-	File -> New -> Library.  Save the new library to a new folder dB and new filename mylib:
-Libpath\db\mylib.DbLib
-2. Tools-> Import from Integrated Library
-	Select new Access database
-	Set database location to a new file 
-Libpath\db\mylib.MDB
-	Select mylib.IntLib and convert
-	Save mylib.DbLib
+1. Create database library.  
+	 &ensp; File -> New -> Library.  Save the new library to a new folder dB and new filename mylib:  
+ &ensp; &ensp;Libpath\db\mylib.DbLib
+2. Tools-> Import from Integrated Library  
+	 &ensp;Select new Access database
+	 &ensp;Set database location to a new file 
+ &ensp; &ensp;Libpath\db\mylib.MDB
+	 &ensp;Select mylib.IntLib and convert
+	 &ensp;Save mylib.DbLib
 
 Convert Access database to Excel
 1. Open mylib.MDB in Access
