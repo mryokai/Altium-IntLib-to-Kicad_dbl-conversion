@@ -44,7 +44,7 @@ Prepare the data in excel
 13. Save the file and then save as CSV UTF-8 (comma delimited)  
 
 Install SQLite3 driver and database editing software  
-Read and follow this link to install the driver and database editing software:  
+Read and follow this link to install the driver and database editing software SQLiteStudio:  
 https://github.com/SumantKhalate/KiCad-libdb/  
 
 Create the SQLite3 database  
@@ -55,7 +55,7 @@ Create the SQLite3 database
 4. Change Data type to TEXT on all field except No BOM, Schematics Only, and Pin Count  
 5. Set Part Number as Primary Key  
 
-Create the data source to the SQLite3 database  
+Create the data source to the SQLite3 database.  See https://github.com/SumantKhalate/KiCad-libdb/  
  ![image](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/619e6e1d-5bb8-4559-8c4d-fa884dcff2c3)
 
 Setup Kicad library configuration file  
