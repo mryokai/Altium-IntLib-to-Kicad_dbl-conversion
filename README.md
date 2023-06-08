@@ -1,8 +1,8 @@
 # Altium-IntLib-to-Kicad_dbl-conversion
 How to convert Altium integrated library (or atomic schlib/pcblib) into Kicad database library
 
-Reference 1: https://docs.kicad.org/master/en/eeschema/eeschema_advanced.html
-Reference 2: https://github.com/SumantKhalate/KiCad-libdb/
+Reference 1: https://docs.kicad.org/master/en/eeschema/eeschema_advanced.html  
+Reference 2: https://github.com/SumantKhalate/KiCad-libdb/  
 
 Prepare the schlib and pcblib if not already done
 1. Put the SchLibs and PcbLibs in an Integrated Library project.  
@@ -25,7 +25,7 @@ Libpath\db\mylib.MDB
 
 Convert Access database to Excel
 1. Open mylib.MDB in Access
-2. Export to Excel with formatting.
+2. Export to Excel with formatting.  
  ![image](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/d7918847-3525-4fb5-b37b-a4015e1dc836)
 
 
@@ -58,7 +58,7 @@ Create the SQLite3 database
 4. Change Data type to TEXT on all field except No BOM, Schematics Only, and Pin Count
 5. Set Part Number as Primary Key
 
-Create the data source to the SQLite3 database
+Create the data source to the SQLite3 database  
  ![image](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/619e6e1d-5bb8-4559-8c4d-fa884dcff2c3)
 
 
