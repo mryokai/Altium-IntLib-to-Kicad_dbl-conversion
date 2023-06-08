@@ -1,5 +1,5 @@
 # Altium-IntLib-to-Kicad_dbl-conversion
-How to convert Altium integrated library (or atomic schlib/pcblib) into Kicad database library
+How to convert Altium integrated library (or atomic schlib/pcblib) into Kicad database library (incomplete process at the moment)  
 
 Reference 1: https://docs.kicad.org/master/en/eeschema/eeschema_advanced.html  
 Reference 2: https://github.com/SumantKhalate/KiCad-libdb/  
