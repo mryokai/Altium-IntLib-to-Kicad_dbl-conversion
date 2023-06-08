@@ -1,9 +1,6 @@
 # Altium-IntLib-to-Kicad_dbl-conversion
 How to convert Altium integrated library (or atomic schlib/pcblib) into Kicad database library (incomplete process at the moment)  
 
-Reference 1: https://docs.kicad.org/master/en/eeschema/eeschema_advanced.html  
-Reference 2: https://github.com/SumantKhalate/KiCad-libdb/  
-
 Prepare the schlib and pcblib if not already done  
 1. Put the SchLibs and PcbLibs in an Integrated Library project.  
  &ensp;Libpath\mylib.LibPkg
@@ -46,7 +43,7 @@ Prepare the data in excel
 12. Fill Symbols and Footprints column if Kicad symbols or footprints are available  
 13. Save the file and then save as CSV UTF-8 (comma delimited)  
 
-Install SQLite3 drive and database editing software  
+Install SQLite3 driver and database editing software  
 Read and follow this link to install the driver and database editing software:  
 https://github.com/SumantKhalate/KiCad-libdb/  
 
@@ -61,6 +58,7 @@ Create the SQLite3 database
 Create the data source to the SQLite3 database  
  ![image](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/619e6e1d-5bb8-4559-8c4d-fa884dcff2c3)
 
-
+Reference 1: https://docs.kicad.org/master/en/eeschema/eeschema_advanced.html  
+Reference 2: https://github.com/SumantKhalate/KiCad-libdb/  
 
 
