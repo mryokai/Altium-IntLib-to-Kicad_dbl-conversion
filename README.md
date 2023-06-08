@@ -4,11 +4,11 @@ How to convert Altium integrated library (or atomic schlib/pcblib) into Kicad da
 Reference 1: https://docs.kicad.org/master/en/eeschema/eeschema_advanced.html  
 Reference 2: https://github.com/SumantKhalate/KiCad-libdb/  
 
-Prepare the schlib and pcblib if not already done
+Prepare the schlib and pcblib if not already done  
 1. Put the SchLibs and PcbLibs in an Integrated Library project.  
-Libpath\mylib.LibPkg
-2. Compile mylib.LibPkg.  An integrated library is created in a subfolder 
-Libpath\Integrated Library\mylib.IntLib
+ &ensp;Libpath\mylib.LibPkg
+2. Compile mylib.LibPkg.  An integrated library is created in a subfolder  
+ &ensp;Libpath\Integrated Library\mylib.IntLib
 3. Fix errors if necessary.  Compile again.
 4. Suggestion: Remove special characters in the part name e.g. \/,;~
 
