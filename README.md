@@ -1,7 +1,7 @@
 # Altium-IntLib-to-Kicad_dbl-conversion
 How to convert Altium integrated library (or atomic schlib/pcblib) into Kicad database library  
   
-Currently, it is an incomplete process.  The steps below only take Altium library parameters and convert into a database that Kicad can read.  Symbols and footprint still need to be ported one-by-one manually.  There is a conversion tool for schematics and PCB but it requires a lot of manually modification afterwards.  And I am not aware of any conversion tools that can convert symbols and footprints.  If that's changed, please let me know.  
+Currently, it is an incomplete process.  The steps below only take Altium library parameters and convert into a database that Kicad can read.  Symbols and footprint still need to be ported one-by-one manually.  There is a conversion tool for schematics and PCB but it requires a lot of manually modification afterwards.  And I am not aware of any conversion tools that can convert symbols (schlib) and footprints (pcblib).  If that's changed, please let me know.  
 
 Prepare the schlib and pcblib if not already done  
 1. Put the SchLibs and PcbLibs in an Integrated Library project.  
