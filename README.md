@@ -58,6 +58,8 @@ Create the SQLite3 database
 
 Create the data source to the SQLite3 database.  See https://github.com/SumantKhalate/KiCad-libdb/  
  ![image](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/619e6e1d-5bb8-4559-8c4d-fa884dcff2c3)
+![image](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/e146617c-0ebb-4f11-82c9-63adee28e114)
+
 
 Setup Kicad library configuration file  
 1. Download mylib.kicad_dbl.  
