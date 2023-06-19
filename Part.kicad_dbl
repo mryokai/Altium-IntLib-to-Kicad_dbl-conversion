@@ -1,0 +1,355 @@
+{
+    "meta": {
+        "version": 1.0
+    },
+    "name": "My Database Library",
+    "description": "A database of components",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": "DSN=KiCad_part;"
+    },
+    "libraries": [
+        {
+            "name": "Resistor",
+            "table": "Resistor",
+            "key": "Part Number",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields": [
+				{
+                    "column": "HelpURL",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+					"show_name": false
+                },
+                {
+                    "column": "BOM Option",
+                    "name": "BOM-Option",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "BOM Option 2",
+                    "name": "BOM-Option2",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false
+                },				
+                {
+                    "column": "NWT Part Number",
+                    "name": "IPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 1",
+                    "name": "MFR",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 1 PN",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Source 2",
+                    "name": "MFR2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 2 PN",
+                    "name": "MPN2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 3",
+                    "name": "MFR3",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 3 PN",
+                    "name": "MPN3",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "VEN1",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Supplier Part Number 1",
+                    "name": "VPN1",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "VEN2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Supplier Part Number 2",
+                    "name": "VPN2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Cmp-rev",
+                    "name": "Rev",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Cost",
+                    "name": "Cost",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },					
+                {
+                    "column": "OpTemp",
+                    "name": "OpTemp",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },					
+				{
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Rating",
+                    "name": "Rating",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+				{
+                    "column": "Note 1",
+                    "name": "Note1",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Comment",
+                    "name": "Comment",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "System",
+                    "name": "System",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Capacitor",
+            "table": "Capacitor",
+            "key": "Part Number",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields": [
+				{
+                    "column": "HelpURL",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+					"show_name": false
+                },
+                {
+                    "column": "BOM Option",
+                    "name": "BOM-Option",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "BOM Option 2",
+                    "name": "BOM-Option2",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false
+                },				
+                {
+                    "column": "NWT Part Number",
+                    "name": "IPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 1",
+                    "name": "MFR",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 1 PN",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 2",
+                    "name": "MFR2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 2 PN",
+                    "name": "MPN2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 3",
+                    "name": "MFR3",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Source 3 PN",
+                    "name": "MPN3",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "VEN1",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Supplier Part Number 1",
+                    "name": "VPN1",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "VEN2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Supplier Part Number 2",
+                    "name": "VPN2",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Cmp-rev",
+                    "name": "Rev",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Cost",
+                    "name": "Cost",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },					
+                {
+                    "column": "OpTemp",
+                    "name": "OpTemp",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },					
+				{
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Rating",
+                    "name": "Rating",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+				{
+                    "column": "Note 1",
+                    "name": "Note1",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Comment",
+                    "name": "Comment",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "System",
+                    "name": "System",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        }
+    ]
+}
