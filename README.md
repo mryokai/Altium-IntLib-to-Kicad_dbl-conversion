@@ -59,12 +59,12 @@ Create the SQLite3 database
 4. Change Data type to TEXT on all field except No BOM, Schematics Only, and Pin Count  
 5. Set Part Number as Primary Key  
 
-Create the data source to the SQLite3 database.  See https://github.com/SumantKhalate/KiCad-libdb/  
-![odbc2](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/5e614907-c2ba-4b90-ba3a-ce4486d7c95e)  
-
 Setup Kicad library configuration file  
 1. Download Part.kicad_dbl.  
 2. Modify the user parameters (every Intlib/Schlib will have different user parameter).  The other system parameters should be linked already.  
+
+Create the data source to the SQLite3 database.  See https://github.com/SumantKhalate/KiCad-libdb/  
+![odbc2](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/e404b29b-861a-4a28-a887-eb8b034172c7)  
 
 Setup Kicad db path  
 1. Open Kicad 7.0  
