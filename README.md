@@ -48,25 +48,34 @@ Prepare the data in excel
 Install SQLite3 driver and database editing software  
 Read and follow this link to install the driver and database editing software SQLiteStudio:  
 https://github.com/SumantKhalate/KiCad-libdb/  
+![odbc1](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/5a1f5f79-bb6a-46e2-9d57-b294f58350fa)  
+
 
 Create the SQLite3 database  
 1. Open SQLiteStudio  
-2. Create a new database. I called it mylib.sqlite
+2. Create a new database. I called it Part.sqlite
 3. Import the csv file.  There may be a limit of rows that can be imported.  Break up the csv file if necessary.  
 	 &ensp;Tools -> Import  
 4. Change Data type to TEXT on all field except No BOM, Schematics Only, and Pin Count  
 5. Set Part Number as Primary Key  
 
 Create the data source to the SQLite3 database.  See https://github.com/SumantKhalate/KiCad-libdb/  
-
-![image](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/e146617c-0ebb-4f11-82c9-63adee28e114)
-
+![odbc2](https://github.com/mryokai/Altium-IntLib-to-Kicad_dbl-conversion/assets/136013177/5e614907-c2ba-4b90-ba3a-ce4486d7c95e)  
 
 Setup Kicad library configuration file  
-1. Download mylib.kicad_dbl.  
+1. Download Part.kicad_dbl.  
 2. Modify the user parameters (every Intlib/Schlib will have different user parameter).  The other system parameters should be linked already.  
 
-Setup Kicad Symbol Library Path  
+Setup Kicad db path  
+1. Open Kicad 7.0  
+2. Preference -> Manage Symbol Libraries  
+3. Add a library with a nickname and link it to the Part.kicad_dbl.  
+
+Setup Kicad Symbols and Footprints  (this is the most tedious task)  
+1. Open SQLiteStudio  
+2. Fill the field "Symbols" and "Footprins" to Kicad symbols and footprints.  
+3. Open or restart Kicad to reload the database.   
+4. Verify the modification made in Step 2 by placing a new part in a schematics. e.g. pressing A  
 
 
 Reference 1: https://docs.kicad.org/master/en/eeschema/eeschema_advanced.html  
